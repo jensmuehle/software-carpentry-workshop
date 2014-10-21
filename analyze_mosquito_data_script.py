@@ -15,4 +15,4 @@ parameters = mosquito_lib.analyze(data, filename.replace("csv","png"))
 # Save parameters to file
 parameters.to_csv(filename.replace("data","parameters"))
 
-print data.head()
+#print data.head()
